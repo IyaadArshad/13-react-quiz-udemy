@@ -12,7 +12,7 @@ export default function Quiz() {
         });
     }
     return (
-        <div>
+        <div id="quiz">
             <h2>Current question:</h2>
             <p>{QUESTIONS[activeQuestionIndex].text}</p>
             <ul id="answers">
